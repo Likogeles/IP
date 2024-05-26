@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(189, 189, 189);
+}
+
+table{
+    border: 4px double black;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid black;
+    box-shadow: 0 0 5px #00000033;
+
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.one_card {
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid black;
+    box-shadow: 0 0 5px #00000033;
+}
+
+.center_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 720px;
+}
+
+#content{
+    display: flex;
+}
+
+#main{
+    flex-grow: 1;
+}
